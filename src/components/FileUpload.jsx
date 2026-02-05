@@ -72,7 +72,7 @@ const FileUpload = () => {
     formData.append('is_folder', isFolderUpload ? 'true' : 'false');
 
     try {
-      const response = await axios.post('/upload', formData, {
+      const response = await axios.post('https://keshavsuthar-dev.hf.space/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },

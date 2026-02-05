@@ -50,7 +50,7 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      const response = await axios.post('/submit-contact', formData);
+      const response = await axios.post('https://keshavsuthar-dev.hf.space/submit-contact', formData);
       console.log(response.data.message);
       setShowSuccess(true);
       setFormData({ name: '', email: '', subject: '', message: '' });
