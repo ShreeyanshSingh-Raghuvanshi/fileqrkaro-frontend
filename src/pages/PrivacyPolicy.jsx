@@ -49,7 +49,7 @@ const PrivacyPolicy = () => {
         
         <section>
           <h2>4. Contact</h2>
-          <p>For privacy concerns, contact: keshavdev241@gmail.com</p>
+          <p>For privacy concerns, contact: keshavdv241@gmail.com</p>
         </section>
       </motion.section>
     </motion.main>
